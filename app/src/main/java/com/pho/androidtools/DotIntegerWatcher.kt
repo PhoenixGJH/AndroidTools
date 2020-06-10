@@ -8,7 +8,7 @@ import android.text.TextWatcher
  * 如果不需要小数点，直接在EditText中设置 android:digits="0123456789" 即可
  * EditText必须设置 android:inputType="numberDecimal"
  */
-class DotIntegerFilter : TextWatcher {
+class DotIntegerWatcher : TextWatcher {
     private var maxValue = 100 //允许输入的最大值
     private var floatCount = 2 //小数点后保留的位数
 
